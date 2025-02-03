@@ -10,13 +10,13 @@ public class CalendarsPage extends BasePage{
     @FindBy (xpath = "//*[@id=\"post-36\"]/div/div[2]/div/div[2]/div[2]/div/a")
     private WebElement calendarsMenu;
 
-    @FindBy (id = "g1065-selectorenteradate")
+    @FindBy (id = "g1065-2-selectorenteradate")
     private WebElement dateOfBirthInput;
 
     @FindBy (xpath = "//*[@id=\"header\"]/div/a")
     private WebElement homePageButton;
 
-    @FindBy(xpath = "//*[@id=\"contact-form-1065\"]/form/p[1]/button")
+    @FindBy(xpath = "//p[@class='contact-submit']/button[@class='pushbutton-wide']")
     private WebElement submitButton;
 
     @FindBy (id = "to-top")

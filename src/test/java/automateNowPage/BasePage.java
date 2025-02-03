@@ -6,10 +6,12 @@ import webHelper.AlertHelpers;
 import webHelper.ElementsHelper;
 import webHelper.FrameHelpers;
 import webHelper.WindowHelpers;
+import org.openqa.selenium.WebElement;
+
 
 public abstract class BasePage {
 
-    //Vom folosi aceasta variabila in toate paginile care o sa mostenita Base Page;
+    //Vom folosi aceasta variabila in toate paginile care o sa mosteneasca Base Page;
     public WebDriver driver;
     public ElementsHelper elementsHelper;
     public AlertHelpers alertHelpers;
